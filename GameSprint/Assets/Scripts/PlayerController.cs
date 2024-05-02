@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     public LayerMask enimies;
     public Transform attackPoint;
     public float attackRadius;
+    public int damage;
     // Start is called before the first frame update
     void Start()
     {
@@ -39,9 +40,13 @@ public class PlayerController : MonoBehaviour
     private void Attack()
     {
         Collider2D[] enimiesHIt = Physics2D.OverlapCircleAll(attackPoint.position, attackRadius, enimies);
-        foreach(Collider2D enenmy in enimiesHIt)
+        foreach(Collider2D enenmyHit in enimiesHIt)
         {
-            Debug.Log(enenmy.name);
+            Enemy enemy = enenmyHit.GetComponent<Enemy>();
+            if (enemy != null)
+            {
+                enemy.TakeDamage(damage);
+            }
         }
     }
 
