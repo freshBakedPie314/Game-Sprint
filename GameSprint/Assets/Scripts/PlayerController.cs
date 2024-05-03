@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float speed;
     Rigidbody2D rb;
     public LayerMask enimies;
     public Transform attackPoint;
@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        data = GameObject.FindGameObjectWithTag("Game Manager").GetComponent<GameManager>().data;
     }
 
     // Update is called once per frame
@@ -22,7 +23,7 @@ public class PlayerController : MonoBehaviour
     {
         Vector2 movement = new Vector2(Input.GetAxisRaw("Horizontal") , Input.GetAxisRaw("Vertical"));
         movement.Normalize();
-        movement = movement * speed;
+        movement = movement * data.playerSpeed;
 
         rb.velocity = movement;
 
@@ -47,11 +48,13 @@ public class PlayerController : MonoBehaviour
             Enemy_Ranged enemy_Ranged = enenmyHit.GetComponent<Enemy_Ranged>();
             if (enemy != null)
             {
-                enemy.TakeDamage(damage);
+                enemy.TakeDamage(data.weaponDamage);
+                data.weaponDurability -= 1;
             }
             if(enemy_Ranged != null)
             {
-                enemy_Ranged.TakeDamage(damage);
+                enemy_Ranged.TakeDamage(data.weaponDamage);
+                data.weaponDurability -= 1;
             }
         }
     }
