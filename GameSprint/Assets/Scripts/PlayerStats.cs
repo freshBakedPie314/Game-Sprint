@@ -17,18 +17,7 @@ public class PlayerStats : ScriptableObject
         health = 5;
         weaponDamage = 2;
         playerSpeed = 5;
-        weaponKnockBack = 3;
+        weaponKnockBack = 5.5f;
         weaponDurability = 20;
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

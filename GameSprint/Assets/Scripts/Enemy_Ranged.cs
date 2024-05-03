@@ -5,16 +5,17 @@ using static UnityEngine.GraphicsBuffer;
 
 public class Enemy_Ranged : MonoBehaviour
 {
-    public float health = 5f;
+    public float health = 1f;
     public GameObject projectilePrefab;
     public Transform player;
     public float projectileSpeed = 5f;
-    public float shootingInterval = 2f;
+    float shootingInterval = 2f;
     public float knockbackInterval = 0.2f;
     public PlayerStats data;
     Transform target;
     private void Start()
     {
+        shootingInterval = Random.Range(2f, 3f);
         StartCoroutine(ShootAtPlayer());
         data = GameObject.FindGameObjectWithTag("Game Manager").GetComponent<GameManager>().data;
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();

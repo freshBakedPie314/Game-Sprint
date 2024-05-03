@@ -116,7 +116,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -144,11 +144,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d43753befeb2bc1488a66a8f5361efb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
+  health: 3
   projectilePrefab: {fileID: 724885314145990467, guid: c085467f219241f46ba237e180c76345, type: 3}
   player: {fileID: 0}
   projectileSpeed: 5
-  shootingInterval: 2
   knockbackInterval: 0.2
   data: {fileID: 0}
 --- !u!50 &7553846326668677738
@@ -177,4 +176,4 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4

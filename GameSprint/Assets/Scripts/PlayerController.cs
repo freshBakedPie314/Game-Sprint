@@ -44,6 +44,7 @@ public class PlayerController : MonoBehaviour
         Collider2D[] enimiesHIt = Physics2D.OverlapCircleAll(attackPoint.position, attackRadius, enimies);
         foreach(Collider2D enenmyHit in enimiesHIt)
         {
+            Debug.Log(enenmyHit.name);
             Enemy enemy = enenmyHit.GetComponent<Enemy>();
             Enemy_Ranged enemy_Ranged = enenmyHit.GetComponent<Enemy_Ranged>();
             if (enemy != null)
@@ -55,6 +56,13 @@ public class PlayerController : MonoBehaviour
             {
                 enemy_Ranged.TakeDamage(data.weaponDamage);
                 data.weaponDurability -= 1;
+            }
+
+            Bullet b = enenmyHit.GetComponent<Bullet>();
+            if(b != null)
+            {
+                Debug.Log("Here");
+                Destroy(b.gameObject);
             }
         }
     }
