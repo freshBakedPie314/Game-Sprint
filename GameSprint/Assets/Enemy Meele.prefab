@@ -150,6 +150,7 @@ MonoBehaviour:
   playerMask:
     serializedVersion: 2
     m_Bits: 8
+  attackInterval: 2
   data: {fileID: 11400000, guid: dbec9710e8101324c8eb43360c9daf5f, type: 2}
 --- !u!195 &5446782926318182769
 NavMeshAgent:

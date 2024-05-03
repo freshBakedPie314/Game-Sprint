@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public Transform attackPoint;
     public float attackRadius;
     public int damage;
+    PlayerStats data;
     // Start is called before the first frame update
     void Start()
     {
@@ -43,9 +44,14 @@ public class PlayerController : MonoBehaviour
         foreach(Collider2D enenmyHit in enimiesHIt)
         {
             Enemy enemy = enenmyHit.GetComponent<Enemy>();
+            Enemy_Ranged enemy_Ranged = enenmyHit.GetComponent<Enemy_Ranged>();
             if (enemy != null)
             {
                 enemy.TakeDamage(damage);
+            }
+            if(enemy_Ranged != null)
+            {
+                enemy_Ranged.TakeDamage(damage);
             }
         }
     }
@@ -54,4 +60,6 @@ public class PlayerController : MonoBehaviour
     {
         Gizmos.DrawWireSphere(attackPoint.position, attackRadius);
     }
+
+
 }

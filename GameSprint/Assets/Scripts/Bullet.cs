@@ -1,18 +1,14 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Door : MonoBehaviour
+public class Bullet : MonoBehaviour
 {
-    public bool isClosed = true;
-    public GameObject choice;
-
-    public static event Action isOpened;
+    PlayerStats data;
     // Start is called before the first frame update
     void Start()
     {
-        
+        data = GameObject.FindGameObjectWithTag("Game Manager").GetComponent<GameManager>().data;
     }
 
     // Update is called once per frame
@@ -23,9 +19,9 @@ public class Door : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(!isClosed)
+        if(collision.CompareTag("Player"))
         {
-            isOpened?.Invoke();
+            data.health -= 1;
         }
     }
 }
