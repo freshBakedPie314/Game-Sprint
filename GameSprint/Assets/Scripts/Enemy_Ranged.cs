@@ -8,11 +8,12 @@ public class Enemy_Ranged : MonoBehaviour
     public float health = 1f;
     public GameObject projectilePrefab;
     public Transform player;
-    public float projectileSpeed = 5f;
+    public float projectileSpeed = 10f;
     float shootingInterval = 2f;
     public float knockbackInterval = 0.2f;
     public PlayerStats data;
     Transform target;
+    public Transform shootPosition;
     private void Start()
     {
         shootingInterval = Random.Range(2f, 3f);
@@ -35,8 +36,9 @@ public class Enemy_Ranged : MonoBehaviour
     {
         if (player != null)
         {
-            Vector2 direction = (player.position - transform.position).normalized;
-            GameObject projectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
+            Vector3 direction = player.position - transform.position;
+            direction.Normalize();
+            GameObject projectile = Instantiate(projectilePrefab, shootPosition.position, Quaternion.identity);
             projectile.GetComponent<Rigidbody2D>().velocity = direction * projectileSpeed;
 
             Destroy(projectile, 5f);

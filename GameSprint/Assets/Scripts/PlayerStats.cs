@@ -20,4 +20,5 @@ public class PlayerStats : ScriptableObject
         weaponKnockBack = 5.5f;
         weaponDurability = 20;
     }
+    
 }

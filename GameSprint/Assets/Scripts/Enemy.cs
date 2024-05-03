@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Callbacks;
@@ -15,6 +16,7 @@ public class Enemy : MonoBehaviour
     public float attackInterval;
     public PlayerStats data;
     public float knockbackInterval = 0.2f;
+
     // Start is called before the first frame update
     void Start()
     {

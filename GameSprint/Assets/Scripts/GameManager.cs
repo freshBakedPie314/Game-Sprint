@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Cinemachine;
 public class GameManager : MonoBehaviour
 {
     public Door door;
@@ -13,15 +14,14 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     public GameObject buttonParent;
     public GameObject choicePanel;
-
+    public List<GameObject> hearts;
+    int heartsEnabled = 5;
+    public CinemachineVirtualCamera virtualCamera;
     private void Awake()
     {
         Door.isOpened += displayUpgrades;
         Upgrade.upgradeSelected += DisablePanel;
-
-    }
-    void Start()
-    {
+        PlayerController.hitSomething += ShakeCamera;
 
     }
 
@@ -32,10 +32,29 @@ public class GameManager : MonoBehaviour
         if (enimies.Length <= 0) door.isClosed = false;
         else door.isClosed = true;
 
-        if(data.health <= 0)
+        if (data.health <= 0)
         {
             Debug.Log("Game Over");
         }
+
+        if (shakeTimer > 0)
+        {
+            shakeTimer -= Time.deltaTime;
+            if(shakeTimer <= 0f)
+            {
+                CinemachineBasicMultiChannelPerlin cinemachineBasicMultiChannelPerlin = virtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
+                cinemachineBasicMultiChannelPerlin.m_AmplitudeGain = 0f;
+            }
+        }
+
+            foreach (GameObject heart in hearts)
+            {
+                heart.SetActive(false);
+            }
+            for(int i = 0 ; i < data.health ; i++)
+            {             
+                hearts[i].SetActive(true);
+            }
     }
     GameObject button1, button2, button3;
     public void displayUpgrades()
@@ -72,4 +91,13 @@ public class GameManager : MonoBehaviour
         Destroy(button2);
         Destroy(button3);
     }
+
+    private float shakeTimer;
+    public void ShakeCamera()
+    {
+        CinemachineBasicMultiChannelPerlin cinemachineBasicMultiChannelPerlin = virtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
+        cinemachineBasicMultiChannelPerlin.m_AmplitudeGain = .75f;
+        shakeTimer = .2f;
+    }
+
 }

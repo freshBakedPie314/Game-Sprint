@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Data;
@@ -11,6 +12,8 @@ public class PlayerController : MonoBehaviour
     public float attackRadius;
     public int damage;
     PlayerStats data;
+
+    public static Action hitSomething;
     // Start is called before the first frame update
     void Start()
     {
@@ -51,18 +54,20 @@ public class PlayerController : MonoBehaviour
             {
                 enemy.TakeDamage(data.weaponDamage);
                 data.weaponDurability -= 1;
+                hitSomething?.Invoke();
             }
             if(enemy_Ranged != null)
             {
                 enemy_Ranged.TakeDamage(data.weaponDamage);
                 data.weaponDurability -= 1;
+                hitSomething?.Invoke();
             }
 
             Bullet b = enenmyHit.GetComponent<Bullet>();
             if(b != null)
             {
-                Debug.Log("Here");
-                Destroy(b.gameObject);
+                b.gameObject.GetComponent<Rigidbody2D>().velocity *= -2.5f;
+                hitSomething?.Invoke();
             }
         }
     }
