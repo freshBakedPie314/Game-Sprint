@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,10 +13,12 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     public GameObject buttonParent;
     public GameObject choicePanel;
+
     private void Awake()
     {
         Door.isOpened += displayUpgrades;
         Upgrade.upgradeSelected += DisablePanel;
+
     }
     void Start()
     {
@@ -27,6 +30,12 @@ public class GameManager : MonoBehaviour
     {
         GameObject[] enimies = GameObject.FindGameObjectsWithTag("Enemy");
         if (enimies.Length <= 0) door.isClosed = false;
+        else door.isClosed = true;
+
+        if(data.health <= 0)
+        {
+            Debug.Log("Game Over");
+        }
     }
     GameObject button1, button2, button3;
     public void displayUpgrades()

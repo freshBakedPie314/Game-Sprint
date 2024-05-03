@@ -44,6 +44,7 @@ public class Upgrade : ScriptableObject
         }
         else if (index == 5)
         {
+            Debug.Log("5th");
             data.weaponDurability += 5;
             data.health -= 1;
             upgradeSelected?.Invoke();

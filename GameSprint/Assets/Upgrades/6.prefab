@@ -123,7 +123,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: e087bb36714fd8d47bec653fa3fd8b87, type: 2}
         m_TargetAssemblyTypeName: Upgrade, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: PerformUpgrade
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
