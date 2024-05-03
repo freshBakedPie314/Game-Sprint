@@ -14,7 +14,7 @@ public class PlayerStats : ScriptableObject
     
     private void OnEnable()
     {
-        health = 5;
+        health = 6;
         weaponDamage = 2;
         playerSpeed = 5;
         weaponKnockBack = 5.5f;

@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 {
     public Door door;
     public PlayerStats data;
-
+    public GameObject gameOver;
     public List<GameObject> upgrades;
     public List<Upgrade> upgradesSO;
     // Start is called before the first frame update
@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviour
 
         if (data.health <= 0)
         {
-            Debug.Log("Game Over");
+            gameOver.SetActive(true);
         }
 
         if (shakeTimer > 0)
@@ -47,14 +47,14 @@ public class GameManager : MonoBehaviour
             }
         }
 
-            foreach (GameObject heart in hearts)
-            {
-                heart.SetActive(false);
-            }
-            for(int i = 0 ; i < data.health ; i++)
-            {             
-                hearts[i].SetActive(true);
-            }
+        foreach (GameObject heart in hearts)
+        {
+            heart.SetActive(false);
+        }
+        for(int i = 0 ; i < data.health-1 ; i++)
+        {             
+            hearts[i].SetActive(true);
+        }
     }
     GameObject button1, button2, button3;
     public void displayUpgrades()
@@ -100,4 +100,5 @@ public class GameManager : MonoBehaviour
         shakeTimer = .2f;
     }
 
+   
 }
