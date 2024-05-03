@@ -145,7 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09b63c75ae3df794b82603e914dc3a1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 5
   target: {fileID: 0}
   attackRadius: 1.17
   playerMask:

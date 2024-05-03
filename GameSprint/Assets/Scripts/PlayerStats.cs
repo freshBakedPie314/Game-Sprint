@@ -11,10 +11,11 @@ public class PlayerStats : ScriptableObject
     public float weaponKnockBack;
     public float weaponDurability;
 
+    
     private void OnEnable()
     {
         health = 5;
-        weaponDamage = 35;
+        weaponDamage = 2;
         playerSpeed = 5;
         weaponKnockBack = 3;
         weaponDurability = 20;

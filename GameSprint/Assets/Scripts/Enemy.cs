@@ -7,7 +7,7 @@ using UnityEngine.Timeline;
 
 public class Enemy : MonoBehaviour
 {
-    public float health = 100f;
+    public float health = 5f;
     NavMeshAgent agent;
     [SerializeField] Transform target;
     public float attackRadius;

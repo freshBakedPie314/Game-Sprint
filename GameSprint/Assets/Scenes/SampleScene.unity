@@ -361,12 +361,14 @@ MonoBehaviour:
   - {fileID: 1741677382141873809, guid: 593574929ccf2e64dae63663d7554ade, type: 3}
   - {fileID: 103726555757254011, guid: c3246b5fa057e8c47aa49821a9286281, type: 3}
   - {fileID: 6798412045686987604, guid: 9def0b611d5bdf2468963cfe2eaf8883, type: 3}
+  - {fileID: 2404028233854004137, guid: b0ce921a2f81deb46818329889dc1702, type: 3}
   upgradesSO:
   - {fileID: 11400000, guid: d1d1641ff64482f4ab5e58847aa82219, type: 2}
   - {fileID: 11400000, guid: e9e1e1c5feb133a409ae904218f46204, type: 2}
   - {fileID: 11400000, guid: 5f4ef6c78a42371468363ec112ec2712, type: 2}
   - {fileID: 11400000, guid: e811b02af156c1044821447c5e7363d6, type: 2}
   - {fileID: 11400000, guid: 6bdb6c21dafb45049b43811d4b3e068c, type: 2}
+  - {fileID: 11400000, guid: e087bb36714fd8d47bec653fa3fd8b87, type: 2}
   buttonParent: {fileID: 32979139}
   choicePanel: {fileID: 1496188573}
 --- !u!1 &369674794
@@ -1333,67 +1335,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1001 &1137552060
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1757012278343291959, guid: 48dc0e2fee4c22648bb7146e82781a2b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -7.4507637
-      objectReference: {fileID: 0}
-    - target: {fileID: 1757012278343291959, guid: 48dc0e2fee4c22648bb7146e82781a2b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.1855431
-      objectReference: {fileID: 0}
-    - target: {fileID: 1757012278343291959, guid: 48dc0e2fee4c22648bb7146e82781a2b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1757012278343291959, guid: 48dc0e2fee4c22648bb7146e82781a2b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1757012278343291959, guid: 48dc0e2fee4c22648bb7146e82781a2b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1757012278343291959, guid: 48dc0e2fee4c22648bb7146e82781a2b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1757012278343291959, guid: 48dc0e2fee4c22648bb7146e82781a2b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1757012278343291959, guid: 48dc0e2fee4c22648bb7146e82781a2b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1757012278343291959, guid: 48dc0e2fee4c22648bb7146e82781a2b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1757012278343291959, guid: 48dc0e2fee4c22648bb7146e82781a2b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5476387499110577771, guid: 48dc0e2fee4c22648bb7146e82781a2b, type: 3}
-      propertyPath: m_Name
-      value: Enemy Meele
-      objectReference: {fileID: 0}
-    - target: {fileID: 5497958175931232166, guid: 48dc0e2fee4c22648bb7146e82781a2b, type: 3}
-      propertyPath: target
-      value: 
-      objectReference: {fileID: 1156103996}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 48dc0e2fee4c22648bb7146e82781a2b, type: 3}
 --- !u!1 &1156103993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1845,4 +1786,3 @@ SceneRoots:
   - {fileID: 1228542648}
   - {fileID: 1665371557}
   - {fileID: 369674797}
-  - {fileID: 1137552060}

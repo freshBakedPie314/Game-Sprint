@@ -144,11 +144,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d43753befeb2bc1488a66a8f5361efb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 5
   projectilePrefab: {fileID: 724885314145990467, guid: c085467f219241f46ba237e180c76345, type: 3}
   player: {fileID: 0}
   projectileSpeed: 5
   shootingInterval: 2
+  knockbackInterval: 0.2
+  data: {fileID: 0}
 --- !u!50 &7553846326668677738
 Rigidbody2D:
   serializedVersion: 4

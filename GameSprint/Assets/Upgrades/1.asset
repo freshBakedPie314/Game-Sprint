@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47120b1eee1ae624fba432991d946165, type: 3}
   m_Name: 1
   m_EditorClassIdentifier: 
-  text: +1 Health but Decrease Attack Speed
+  text: Health +2 but Damage +1
+  index: 0
+  data: {fileID: 11400000, guid: dbec9710e8101324c8eb43360c9daf5f, type: 2}
+  choice: {fileID: 0}

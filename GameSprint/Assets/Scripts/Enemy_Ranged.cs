@@ -5,7 +5,7 @@ using static UnityEngine.GraphicsBuffer;
 
 public class Enemy_Ranged : MonoBehaviour
 {
-    public float health = 100f;
+    public float health = 5f;
     public GameObject projectilePrefab;
     public Transform player;
     public float projectileSpeed = 5f;

@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47120b1eee1ae624fba432991d946165, type: 3}
   m_Name: 2
   m_EditorClassIdentifier: 
-  text: Become Invincible for 10s but die with one hit
+  text: Knockback +2 but Health -1
+  index: 1
+  data: {fileID: 11400000, guid: dbec9710e8101324c8eb43360c9daf5f, type: 2}
+  choice: {fileID: 0}
