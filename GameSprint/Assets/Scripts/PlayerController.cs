@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
     public float attackRadius;
     public int damage;
     PlayerStats data;
-
+    public Animator animator;
     public static Action hitSomething;
     // Start is called before the first frame update
     void Start()
@@ -29,16 +29,33 @@ public class PlayerController : MonoBehaviour
         movement = movement * data.playerSpeed;
 
         rb.velocity = movement;
-
+        if(rb.velocity != Vector2.zero) animator.SetBool("run", true); 
+        else animator.SetBool("run", false);
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mousePosition.z = 0f;
         Vector3 direction = mousePosition - transform.position;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        rb.SetRotation(angle);
-
         if (Input.GetMouseButtonDown(0))
         {
             Attack();
+            if (angle > -45f && angle <= 45f)
+            {
+                animator.SetTrigger("attackRight");
+            }
+            else if (angle > 45f && angle <= 135f)
+            {
+                animator.SetTrigger("attackTop");
+            }
+            else if (angle > 135f && angle <= 180f || angle < -135f)
+            {
+                animator.SetTrigger("attackLeft");
+                Debug.Log("Left");
+            }
+            else 
+            {
+                animator.SetTrigger("attackDown");
+            }
+            
         }
     }
 

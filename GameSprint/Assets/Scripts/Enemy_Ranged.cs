@@ -9,7 +9,7 @@ public class Enemy_Ranged : MonoBehaviour
     public GameObject projectilePrefab;
     public Transform player;
     public float projectileSpeed = 10f;
-    float shootingInterval = 2f;
+    float shootingInterval = .25f;
     public float knockbackInterval = 0.2f;
     public PlayerStats data;
     Transform target;

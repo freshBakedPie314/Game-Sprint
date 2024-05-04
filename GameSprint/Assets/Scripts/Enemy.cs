@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEditor.Callbacks;
 using UnityEngine;
 using UnityEngine.AI;
@@ -16,7 +17,7 @@ public class Enemy : MonoBehaviour
     public float attackInterval;
     public PlayerStats data;
     public float knockbackInterval = 0.2f;
-
+    public Animator animator;
     // Start is called before the first frame update
     void Start()
     {
@@ -39,11 +40,19 @@ public class Enemy : MonoBehaviour
 
     private void Attack()
     {
+        Vector3 direction = transform.position - target.position;
+        direction.Normalize();
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         Collider2D hit = Physics2D.OverlapCircle(transform.position, attackRadius, playerMask);
         if (hit != null)
         {
             data.health -= 1;
+            
+            animator.SetTrigger("attackRight");
+            
         }
+
+        
     }
     public void TakeDamage(float damage)
     {

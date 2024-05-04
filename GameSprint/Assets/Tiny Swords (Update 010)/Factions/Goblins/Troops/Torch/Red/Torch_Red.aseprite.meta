@@ -1,0 +1,1091 @@
+fileFormatVersion: 2
+guid: 37ced1b98751a00439fa92f2c5222e89
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Torch_Red_Frame_0
+    originalName: 
+    pivot: {x: 0.5633803, y: -0.6082474}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 262
+      y: 420
+      width: 71
+      height: 97
+    spriteID: 1abc943a4787a6e41862c01b857f3b59
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 262, y: 420}
+  - name: Torch_Red_Frame_1
+    originalName: 
+    pivot: {x: 0.6233766, y: -0.6082474}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 809
+      width: 77
+      height: 97
+    spriteID: fb804469a83e6cc48a23c1561e5caeaf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 152, y: 809}
+  - name: Torch_Red_Frame_2
+    originalName: 
+    pivot: {x: 0.35999998, y: -0.6020408}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 914
+      width: 75
+      height: 98
+    spriteID: 6e3d9eabc1c3b56478300731a4c7ef8c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 152, y: 914}
+  - name: Torch_Red_Frame_3
+    originalName: 
+    pivot: {x: 0.5810811, y: -0.7468354}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 381
+      y: 281
+      width: 74
+      height: 79
+    spriteID: 395cdd72e16ab9a47943608b08f592dd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 381, y: 281}
+  - name: Torch_Red_Frame_4
+    originalName: 
+    pivot: {x: 0.59999996, y: -0.71951216}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 262
+      y: 889
+      width: 75
+      height: 82
+    spriteID: 581193830797b2c4cb0428186b79e2ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 262, y: 889}
+  - name: Torch_Red_Frame_5
+    originalName: 
+    pivot: {x: 0.59459454, y: -0.7108433}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 381
+      y: 4
+      width: 74
+      height: 83
+    spriteID: 0fb52760af8b822429f20384fd445269
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 381, y: 4}
+  - name: Torch_Red_Frame_6
+    originalName: 
+    pivot: {x: 0.5833334, y: -0.70238096}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 381
+      y: 189
+      width: 72
+      height: 84
+    spriteID: 02e2a36b4dc433442b00d0e70bec7212
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 381, y: 189}
+  - name: Torch_Red_Frame_7
+    originalName: 
+    pivot: {x: 0.57746476, y: -0.68604654}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 381
+      y: 95
+      width: 71
+      height: 86
+    spriteID: aa22000e08546b84b9eab9b7a6771a3e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 381, y: 95}
+  - name: Torch_Red_Frame_8
+    originalName: 
+    pivot: {x: 0.57746476, y: -0.67045456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 262
+      y: 793
+      width: 71
+      height: 88
+    spriteID: 2c9e64b575771ca46b9899049124e0e0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 262, y: 793}
+  - name: Torch_Red_Frame_9
+    originalName: 
+    pivot: {x: 0.5633803, y: -0.6629213}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 262
+      y: 696
+      width: 71
+      height: 89
+    spriteID: 619ed438886b6d849a01806c1eea41f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 262, y: 696}
+  - name: Torch_Red_Frame_10
+    originalName: 
+    pivot: {x: 0.7129629, y: -0.80821913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 262
+      y: 85
+      width: 108
+      height: 73
+    spriteID: 63a9ba50b4642a14fac92c2a8e0366a5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 262, y: 85}
+  - name: Torch_Red_Frame_11
+    originalName: 
+    pivot: {x: 0.6868687, y: -0.77631575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 725
+      width: 99
+      height: 76
+    spriteID: 3ad14130730ca84458f0cd66d8daa62f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 152, y: 725}
+  - name: Torch_Red_Frame_12
+    originalName: 
+    pivot: {x: 0.72380954, y: -0.80821913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 262
+      y: 166
+      width: 105
+      height: 73
+    spriteID: 0fbbf8684a5339b41a4e08fb79e27e4d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 262, y: 166}
+  - name: Torch_Red_Frame_13
+    originalName: 
+    pivot: {x: 0.6936937, y: -0.80821913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 262
+      y: 4
+      width: 111
+      height: 73
+    spriteID: f8ecedef8182fd34bab861c71e75b2d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 262, y: 4}
+  - name: Torch_Red_Frame_14
+    originalName: 
+    pivot: {x: 0.68, y: -0.77631575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 641
+      width: 100
+      height: 76
+    spriteID: 72a5eaae901d5494bb608abb1c5df350
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 152, y: 641}
+  - name: Torch_Red_Frame_15
+    originalName: 
+    pivot: {x: 0.72380954, y: -0.80821913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 262
+      y: 247
+      width: 105
+      height: 73
+    spriteID: 5dad9a4e796bada4c9d70eeadd7d7836
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 262, y: 247}
+  - name: Torch_Red_Frame_16
+    originalName: 
+    pivot: {x: 0.65, y: -0.6145833}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 537
+      width: 80
+      height: 96
+    spriteID: df33dbd9f0b19254a8f0e12ab533849a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 152, y: 537}
+  - name: Torch_Red_Frame_17
+    originalName: 
+    pivot: {x: 0.6627907, y: -0.57843137}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 229
+      width: 86
+      height: 102
+    spriteID: 0b8376d417ad3764ca16370874786b63
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 152, y: 229}
+  - name: Torch_Red_Frame_18
+    originalName: 
+    pivot: {x: 0.67777777, y: -0.5412844}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 112
+      width: 90
+      height: 109
+    spriteID: 6d7dfb7cc8a01ce418a28f4944f8efaf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 152, y: 112}
+  - name: Torch_Red_Frame_19
+    originalName: 
+    pivot: {x: 0.4160584, y: -0.54716986}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 118
+      width: 137
+      height: 106
+    spriteID: b590f4c0cdb9bb14facda411b47b14a8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 118}
+  - name: Torch_Red_Frame_20
+    originalName: 
+    pivot: {x: 0.41481486, y: -0.53271025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 232
+      width: 135
+      height: 107
+    spriteID: 35c1a371e83733c44b6c8cc2189933d4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 232}
+  - name: Torch_Red_Frame_21
+    originalName: 
+    pivot: {x: 0.43089432, y: -0.5462963}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 585
+      width: 123
+      height: 108
+    spriteID: 13a6b7a9ccc38bb46b25b5f10b36a423
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 585}
+  - name: Torch_Red_Frame_22
+    originalName: 
+    pivot: {x: 0.6202531, y: -0.7375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 262
+      y: 608
+      width: 79
+      height: 80
+    spriteID: 9baf948f523bd1d4b80ac3f19692dae7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 262, y: 608}
+  - name: Torch_Red_Frame_23
+    originalName: 
+    pivot: {x: 0.6395349, y: -0.70238096}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 262
+      y: 328
+      width: 86
+      height: 84
+    spriteID: 924457136632b4d42b7037fa14ecc154
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 262, y: 328}
+  - name: Torch_Red_Frame_24
+    originalName: 
+    pivot: {x: 0.65168536, y: -0.67045456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 441
+      width: 89
+      height: 88
+    spriteID: 072f37fed8b7ba047b92062aa70167b3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 152, y: 441}
+  - name: Torch_Red_Frame_25
+    originalName: 
+    pivot: {x: 0.50862074, y: -0.2566372}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 701
+      width: 116
+      height: 113
+    spriteID: 143d24f8f26082f4e83a3d86ad6a87dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 701}
+  - name: Torch_Red_Frame_26
+    originalName: 
+    pivot: {x: 0.48739493, y: -0.1965812}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 460
+      width: 119
+      height: 117
+    spriteID: d0d6add07f49fdd4db6d439145fb79a4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 460}
+  - name: Torch_Red_Frame_27
+    originalName: 
+    pivot: {x: 0.39215687, y: -0.26999998}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 4
+      width: 102
+      height: 100
+    spriteID: ffbdeca6da44d3b49a420a0ebc396d3d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 152, y: 4}
+  - name: Torch_Red_Frame_28
+    originalName: 
+    pivot: {x: 0.30769235, y: -0.78666663}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 262
+      y: 525
+      width: 91
+      height: 75
+    spriteID: 04555fe9a2302c545987b138f577316d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 262, y: 525}
+  - name: Torch_Red_Frame_29
+    originalName: 
+    pivot: {x: 0.32978725, y: -0.4835165}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 923
+      width: 94
+      height: 91
+    spriteID: 234f47f82cd21724bbf4b0ae58080c96
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 923}
+  - name: Torch_Red_Frame_30
+    originalName: 
+    pivot: {x: 0.34065938, y: -0.43617022}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 339
+      width: 91
+      height: 94
+    spriteID: 0c28b6a95e126534eb826cfeb31ca597
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 152, y: 339}
+  - name: Torch_Red_Frame_31
+    originalName: 
+    pivot: {x: 0.5928571, y: -0.44339624}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 140
+      height: 106
+    spriteID: 31baa3649c73efb42bbdc6cc5b5ea845
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Torch_Red_Frame_32
+    originalName: 
+    pivot: {x: 0.6058394, y: -0.4857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 347
+      width: 137
+      height: 105
+    spriteID: d99d83c1b3051364c8f4c57eb3184695
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 347}
+  - name: Torch_Red_Frame_33
+    originalName: 
+    pivot: {x: 0.69827586, y: -0.63440853}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 822
+      width: 116
+      height: 93
+    spriteID: cece7d5df02d42e45806a9f00f5ac4b3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 822}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 910351052
+    name: Torch_Red
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Torch_Red_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 56
+        y: 59
+        width: 71
+        height: 97
+      spriteId: 1abc943a4787a6e41862c01b857f3b59
+    - name: Torch_Red_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 48
+        y: 59
+        width: 77
+        height: 97
+      spriteId: fb804469a83e6cc48a23c1561e5caeaf
+    - name: Torch_Red_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 69
+        y: 59
+        width: 75
+        height: 98
+      spriteId: 6e3d9eabc1c3b56478300731a4c7ef8c
+    - name: Torch_Red_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 53
+        y: 59
+        width: 74
+        height: 79
+      spriteId: 395cdd72e16ab9a47943608b08f592dd
+    - name: Torch_Red_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 51
+        y: 59
+        width: 75
+        height: 82
+      spriteId: 581193830797b2c4cb0428186b79e2ff
+    - name: Torch_Red_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 52
+        y: 59
+        width: 74
+        height: 83
+      spriteId: 0fb52760af8b822429f20384fd445269
+    - name: Torch_Red_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 54
+        y: 59
+        width: 72
+        height: 84
+      spriteId: 02e2a36b4dc433442b00d0e70bec7212
+    - name: Torch_Red_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 55
+        y: 59
+        width: 71
+        height: 86
+      spriteId: aa22000e08546b84b9eab9b7a6771a3e
+    - name: Torch_Red_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 55
+        y: 59
+        width: 71
+        height: 88
+      spriteId: 2c9e64b575771ca46b9899049124e0e0
+    - name: Torch_Red_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 56
+        y: 59
+        width: 71
+        height: 89
+      spriteId: 619ed438886b6d849a01806c1eea41f9
+    - name: Torch_Red_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 19
+        y: 59
+        width: 108
+        height: 73
+      spriteId: 63a9ba50b4642a14fac92c2a8e0366a5
+    - name: Torch_Red_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 28
+        y: 59
+        width: 99
+        height: 76
+      spriteId: 3ad14130730ca84458f0cd66d8daa62f
+    - name: Torch_Red_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 20
+        y: 59
+        width: 105
+        height: 73
+      spriteId: 0fbbf8684a5339b41a4e08fb79e27e4d
+    - name: Torch_Red_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 19
+        y: 59
+        width: 111
+        height: 73
+      spriteId: f8ecedef8182fd34bab861c71e75b2d0
+    - name: Torch_Red_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 28
+        y: 59
+        width: 100
+        height: 76
+      spriteId: 72a5eaae901d5494bb608abb1c5df350
+    - name: Torch_Red_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 20
+        y: 59
+        width: 105
+        height: 73
+      spriteId: 5dad9a4e796bada4c9d70eeadd7d7836
+    - name: Torch_Red_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 44
+        y: 59
+        width: 80
+        height: 96
+      spriteId: df33dbd9f0b19254a8f0e12ab533849a
+    - name: Torch_Red_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 39
+        y: 59
+        width: 86
+        height: 102
+      spriteId: 0b8376d417ad3764ca16370874786b63
+    - name: Torch_Red_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 35
+        y: 59
+        width: 90
+        height: 109
+      spriteId: 6d7dfb7cc8a01ce418a28f4944f8efaf
+    - name: Torch_Red_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 39
+        y: 58
+        width: 137
+        height: 106
+      spriteId: b590f4c0cdb9bb14facda411b47b14a8
+    - name: Torch_Red_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 40
+        y: 57
+        width: 135
+        height: 107
+      spriteId: 35c1a371e83733c44b6c8cc2189933d4
+    - name: Torch_Red_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 43
+        y: 59
+        width: 123
+        height: 108
+      spriteId: 13a6b7a9ccc38bb46b25b5f10b36a423
+    - name: Torch_Red_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 47
+        y: 59
+        width: 79
+        height: 80
+      spriteId: 9baf948f523bd1d4b80ac3f19692dae7
+    - name: Torch_Red_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 41
+        y: 59
+        width: 86
+        height: 84
+      spriteId: 924457136632b4d42b7037fa14ecc154
+    - name: Torch_Red_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 38
+        y: 59
+        width: 89
+        height: 88
+      spriteId: 072f37fed8b7ba047b92062aa70167b3
+    - name: Torch_Red_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 37
+        y: 29
+        width: 116
+        height: 113
+      spriteId: 143d24f8f26082f4e83a3d86ad6a87dc
+    - name: Torch_Red_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 38
+        y: 23
+        width: 119
+        height: 117
+      spriteId: d0d6add07f49fdd4db6d439145fb79a4
+    - name: Torch_Red_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 56
+        y: 27
+        width: 102
+        height: 100
+      spriteId: ffbdeca6da44d3b49a420a0ebc396d3d
+    - name: Torch_Red_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 68
+        y: 59
+        width: 91
+        height: 75
+      spriteId: 04555fe9a2302c545987b138f577316d
+    - name: Torch_Red_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 65
+        y: 44
+        width: 94
+        height: 91
+      spriteId: 234f47f82cd21724bbf4b0ae58080c96
+    - name: Torch_Red_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 65
+        y: 41
+        width: 91
+        height: 94
+      spriteId: 0c28b6a95e126534eb826cfeb31ca597
+    - name: Torch_Red_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 13
+        y: 47
+        width: 140
+        height: 106
+      spriteId: 31baa3649c73efb42bbdc6cc5b5ea845
+    - name: Torch_Red_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 13
+        y: 51
+        width: 137
+        height: 105
+      spriteId: d99d83c1b3051364c8f4c57eb3184695
+    - name: Torch_Red_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 15
+        y: 59
+        width: 116
+        height: 93
+      spriteId: cece7d5df02d42e45806a9f00f5ac4b3
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 192, y: 192}
