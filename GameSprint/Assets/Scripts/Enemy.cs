@@ -1,11 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
-using UnityEditor.Callbacks;
 using UnityEngine;
 using UnityEngine.AI;
-using UnityEngine.Timeline;
 
 public class Enemy : MonoBehaviour
 {
@@ -19,7 +16,7 @@ public class Enemy : MonoBehaviour
     public float knockbackInterval = 0.2f;
     public Animator animator;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;

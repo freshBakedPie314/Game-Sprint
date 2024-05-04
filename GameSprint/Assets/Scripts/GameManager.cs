@@ -22,7 +22,13 @@ public class GameManager : MonoBehaviour
         Door.isOpened += displayUpgrades;
         Upgrade.upgradeSelected += DisablePanel;
         PlayerController.hitSomething += ShakeCamera;
+        gameOver.SetActive(false);
 
+        data.health = 6;
+        data.weaponDamage = 2;
+        data.playerSpeed = 5;
+        data.weaponKnockBack = 5.5f;
+        data.weaponDurability = 20;
     }
 
     // Update is called once per frame

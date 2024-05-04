@@ -9,4 +9,14 @@ public class SManager : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void LoadGame()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    public void Menu()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
